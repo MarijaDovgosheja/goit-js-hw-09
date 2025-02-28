@@ -1,0 +1,19 @@
+/* ul,
+li {
+  list-style: none;
+  padding: 0;
+} */
+.gallery {
+  margin-top: 24px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+.gallery-image {
+  width: 360px;
+  max-height: 200px;
+}
